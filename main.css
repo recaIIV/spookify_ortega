@@ -1,0 +1,175 @@
+/* Fonts 
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+:root {
+  --spacer: 3rem;
+  --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Utilities */
+ul[class],
+ol[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, var(--spacer));
+}
+/* Start Here */
+
+
+
+
+
+em {
+  color: #F55D3A;
+}
+.primary {
+  color: #24126A;
+  font-weight: 800;
+  position: absolute;
+}
+nav ul{
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  color:#3D2892;
+}
+a {
+  text-decoration: none;
+  font-weight: 800;
+}
+html {
+  background-color: #FFFAFB;
+}
+.first {
+  height: 100px;
+  width: 100%;
+}
+.first h1{
+  margin-top: 70px;
+  text-align: center;
+  color: #FF4B21;
+}
+.first h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.but {
+  text-align: center;
+  width: 70px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #3D2892;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%,0%);
+  
+}
+.paramdam {
+  margin: 10px 10px 0 10px;
+  float: left;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+}
+.sec, .third {
+  border-radius: 20px;
+  margin-top: 40px;
+  height: 250px;
+  width: 100%;
+}
+.sec h3 {
+  margin: 40px 0 0 20px;
+}
+.senyales {
+  margin: 0px 10px 0 10px;
+  float: right;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+}
+.authors {
+  position: relative;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.authors img {
+  width: 50px;
+  height: 50px;
+}
+.authors div {
+  width: 100px;
+  height: 300px;
+  position: relative;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.stories {
+  background-color: #3D2892;
+  position: relative;
+  height: 450px;
+  
+}
+.stories p {
+  color: white;
+  margin-left: 10px;
+}
+.stories h3 {
+  color: #F55D3A;
+}
+footer {
+  height: 300px;
+  text-align: center;
+  background-color: #050505;
+  color: white;
+}
+footer h1 {
+  color: #F55D3A;
+}
+footer div {
+  padding-top: 100px;
+}
+.spook{
+  background-color:#4119E6;
+  border-color: #4119E6;
+  color: white;
+}
+.bott p {
+  color:#4119E6;
+}
+.bott input{
+  border-radius: 6px;
+}
